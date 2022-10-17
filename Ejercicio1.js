@@ -1,10 +1,10 @@
-var nota = parseInt(prompt("Ingrese la nota del alumno:"));
+let nota = parseInt(prompt("Ingrese la nota del alumno:"));
 
 if(nota>=70){
-    var mensaje = "Usted ha aprobado.";
+    var message = "Usted ha aprobado.";
 }
 else{
-    mensaje = "Usted esta aplazado.";
+    message = "Usted esta aplazado.";
 }
 
-alert(mensaje);
+alert(message);
